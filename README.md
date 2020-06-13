@@ -6,7 +6,7 @@ VULNRΞPO - Vulnerability Report Generator & Repository
 
 Check online: https://vulnrepo.com/
 
-# VulnrepoApp
+# VulnrepoApp 
 
 Angular CLI: 8.3.21
 
@@ -15,6 +15,14 @@ Node: 12.14.0
 Angular: 8.2.14
 
 TypeScript 3.5.3
+
+## Prereq
+
+`apt install nodejs`
+
+`apt install npm`
+
+`apt install yarn`
 
 ## Install
 `git clone`
@@ -25,7 +33,9 @@ TypeScript 3.5.3
 
 `npm install typescript@3.5.3`
 
-Build or run the server.
+Build or run the server. (node puts the symlinks for binaries in `node_modeules/bin`)
+`./node_modules/.bin/ng build`
+`./node_modules/.bin/ng serve`
 
 ## Development server
 
