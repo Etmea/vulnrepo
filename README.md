@@ -9,8 +9,23 @@ Check online: https://vulnrepo.com/
 # VulnrepoApp
 
 Angular CLI: 8.3.21
+
 Node: 12.14.0
+
 Angular: 8.2.14
+
+TypeScript 3.5.3
+
+## Install
+`git clone`
+
+`yarn install`
+
+`npm remove typescript`
+
+`npm install typescript@3.5.3`
+
+Build or run the server.
 
 ## Development server
 
